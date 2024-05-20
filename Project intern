@@ -1,0 +1,11 @@
+def count_words(sentence):
+    # Split the sentence into words using whitespace as delimiter
+    words = sentence.split()
+    # Count the number of words
+    num_words = len(words)
+    return num_words
+
+# Test the function
+sentence = input("Enter a sentence or paragraph: ")
+word_count = count_words(sentence)
+print("Number of words:", word_count)
